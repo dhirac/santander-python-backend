@@ -4,8 +4,8 @@ Santander EXERCISE # 1 and EXERCISE # 2 (option #1) project
 # To run this python script
 pip3 install virtualenv\
 virtualenv env\
-source env/bin/activate\
+source env/bin/activate
 
-install all the dependency form requirements.txt\
+install all the dependency form requirements.txt
 
 python3 application.py
