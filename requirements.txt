@@ -26,3 +26,4 @@ tqdm==4.56.0
 tweepy==3.10.0
 urllib3==1.26.2
 Werkzeug==1.0.1
+gunicorn
