@@ -1,7 +1,7 @@
 #this file is for app engine
 service: backend-service
 runtime: python37
-entrypoint: gunicorn -b :$PORT main:app
+entrypoint: gunicorn -b :$PORT application:application
 handlers:
 - url: /.*  # This regex directs all routes to main.app
   script: auto
