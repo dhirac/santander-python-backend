@@ -20,7 +20,7 @@ api = Api(application)
 
 class home(Resource):
     def get(self):
-        return "Dhiraj Santander Python Api"
+        return "Dhiraj Python Restful Api"
 
 
 ######################################################################################################
